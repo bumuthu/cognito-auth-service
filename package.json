@@ -1,0 +1,31 @@
+{
+  "name": "@your_registry_name/cognito-service",
+  "version": "1.0.0",
+  "description": "Cognito Service",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bumuthu/cognito-auth-service.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@your_registry_name"
+  },
+  "author": "BumuthuDilshan",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "type": "commonjs"
+}
